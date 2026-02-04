@@ -18,6 +18,7 @@ This project builds a **Movie Recommendation System** using **Collaborative Filt
   
 
 
+
 ### **Recommendation Techniques**
 
 #### **1\. KNN with Cosine Similarity**
@@ -34,9 +35,10 @@ This project builds a **Movie Recommendation System** using **Collaborative Filt
 
 * Predicts missing ratings and recommends top-N movies for each user.
 
-* Can be evaluated with RMSE or Precision@K.
+* Was evaluated with RMSE.
 
 ### 
+
 
 ###  **Evaluation**
 
@@ -50,7 +52,7 @@ This project builds a **Movie Recommendation System** using **Collaborative Filt
 
 * **Root Mean Squared Error (RMSE)** used to evaluate predicted ratings against real ratings.
 
-* **Precision@K** can also be computed for top-N ranking accuracy.
+
 
 ### 
 
@@ -63,4 +65,5 @@ This project builds a **Movie Recommendation System** using **Collaborative Filt
 * Use the Gradio GUI to type a user id (e.g., `501`) and click on SVD.
 
 * The system returns the **10 most similar movies** based on the user 501 and his top rated choices.
+
 
