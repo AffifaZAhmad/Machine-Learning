@@ -1,6 +1,6 @@
 **MOVIE RECOMMENDATION SYSTEM:**
 
-This project builds a **Movie Recommendation System** using **Collaborative Filtering** techniques. It uses both **K-Nearest Neighbors (KNN)** with **Cosine Similarity for item based recommendation** and optionally **Matrix Factorization (SVD) for user based recommendation** for improved rating predictions and evaluation.
+This project builds a **Movie Recommendation System** using **Collaborative Filtering** techniques. It uses both **K-Nearest Neighbors (KNN)** with **Cosine Similarity for item based recommendation** and **Matrix Factorization (SVD) for user based recommendation** for improved rating predictions and evaluation.
 
 ### **Technologies Used**
 
@@ -63,3 +63,4 @@ This project builds a **Movie Recommendation System** using **Collaborative Filt
 * Use the Gradio GUI to type a user id (e.g., `501`) and click on SVD.
 
 * The system returns the **10 most similar movies** based on the user 501 and his top rated choices.
+
